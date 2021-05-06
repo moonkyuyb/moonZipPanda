@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zipanda.iml" filepath="$PROJECT_DIR$/.idea/modules/zipanda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/zipanda.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/zipanda.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1956273798/zipanda.react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1956273798/zipanda.react-native-community_datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1557992106/zipanda.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1557992106/zipanda.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1262777279/zipanda.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1262777279/zipanda.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-570212763/zipanda.react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-570212763/zipanda.react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-486703100/zipanda.react-native-picker_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-486703100/zipanda.react-native-picker_picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/333491515/zipanda.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/333491515/zipanda.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1696819094/zipanda.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1696819094/zipanda.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/87921922/zipanda.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/87921922/zipanda.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1743313613/zipanda.react-native-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/1743313613/zipanda.react-native-splash-screen.iml" />
+    </modules>
+  </component>
+</project>

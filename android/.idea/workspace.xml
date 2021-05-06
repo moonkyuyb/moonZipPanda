@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b449301f-c1e7-4637-ac40-98df6b7d5f8f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/../.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.buckconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../.buckconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.env" beforeDir="false" afterPath="$PROJECT_DIR$/../.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.flowconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../.flowconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.prettierrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../.prettierrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__tests__/App-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../__tests__/App-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_BUCK" beforeDir="false" afterPath="$PROJECT_DIR$/app/_BUCK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build_defs.bzl" beforeDir="false" afterPath="$PROJECT_DIR$/app/build_defs.bzl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/debug/java/com/zipanda/ReactNativeFlipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/debug/java/com/zipanda/ReactNativeFlipper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zipanda/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zipanda/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zipanda/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zipanda/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/splashscreen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splashscreen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/launch_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/launch_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-ldpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-ldpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors-icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors-icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors-splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors-splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/SplashScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/SplashScreen.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipanda-tvOS/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipanda-tvOS/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipanda-tvOSTests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipanda-tvOSTests/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipanda.xcodeproj/xcshareddata/xcschemes/zipanda-tvOS.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipanda.xcodeproj/xcshareddata/xcschemes/zipanda-tvOS.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipanda.xcodeproj/xcshareddata/xcschemes/zipanda.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipanda.xcodeproj/xcshareddata/xcschemes/zipanda.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipanda.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipanda.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipanda.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipanda.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipanda/AppDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipanda/AppDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipanda/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipanda/AppDelegate.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipanda/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipanda/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipanda/Images.xcassets/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipanda/Images.xcassets/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipanda/Images.xcassets/SplashImage.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipanda/Images.xcassets/SplashImage.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipanda/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipanda/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipanda/LaunchScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipanda/LaunchScreen.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipanda/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipanda/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipandaTests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipandaTests/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/zipandaTests/zipandaTests.m" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/zipandaTests/zipandaTests.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../metro.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/BoldText.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/BoldText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/ExtraBoldText.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/ExtraBoldText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/PointText.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/PointText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/SemiBoldText.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/SemiBoldText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/Splash/Splash.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/Splash/Splash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/ZipSafeAreaView.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/ZipSafeAreaView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/ZipText.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/ZipText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/chat/ChatHeaderMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/chat/ChatHeaderMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/chat/ChatHeaderSale.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/chat/ChatHeaderSale.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/common/ArrowIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/common/ArrowIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/common/FlexRowCheckBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/common/FlexRowCheckBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/common/ModalPopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/common/ModalPopup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/container/authContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/container/authContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/container/chatContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/container/chatContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/container/memberContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/container/memberContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/container/salesContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/container/salesContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/reducers/ReducerStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/reducers/ReducerStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/reducers/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/reducers/authReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/reducers/chatReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/reducers/chatReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/reducers/memberReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/reducers/memberReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/reducers/modalReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/reducers/modalReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/reducers/salesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/reducers/salesReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screen/BuildingTypeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screen/BuildingTypeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screen/ChatListScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screen/ChatListScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screen/ChatScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screen/ChatScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screen/IndexScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screen/IndexScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screen/RegisterDirectScreen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screen/RegisterDirectScreen/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screen/RegisterDirectScreen/stepFive.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screen/RegisterDirectScreen/stepFive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screen/RegisterDirectScreen/stepFour.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screen/RegisterDirectScreen/stepFour.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screen/RegisterDirectScreen/stepOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screen/RegisterDirectScreen/stepOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screen/RegisterDirectScreen/stepThree.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screen/RegisterDirectScreen/stepThree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screen/RegisterDirectScreen/stepTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screen/RegisterDirectScreen/stepTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screen/SaleTypeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screen/SaleTypeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screen/SignInScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screen/SignInScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screen/SignUpScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screen/SignUpScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/screen/SignUpSuccessScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screen/SignUpSuccessScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/styles/Colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles/CommonStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/styles/CommonStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles/chatStyle/chatCommonStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/styles/chatStyle/chatCommonStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles/chatStyle/chatHeaderStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/styles/chatStyle/chatHeaderStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles/chatStyle/chatStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/styles/chatStyle/chatStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles/layoutStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/styles/layoutStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles/modalStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/styles/modalStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles/registerDirectStyle/registerDirectStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/styles/registerDirectStyle/registerDirectStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles/registerDirectStyle/registerTopInfoStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/styles/registerDirectStyle/registerTopInfoStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles/registerDirectStyle/rigisterCommonStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/styles/registerDirectStyle/rigisterCommonStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles/signInStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/styles/signInStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles/signUpStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/styles/signUpStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/styles/signUpSuccessStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/styles/signUpSuccessStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/common/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/utils/common/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/networking/NetworkRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/utils/networking/NetworkRequest.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R3CN20NQ6GY]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1rzGnLAysFkGhFUHf6Wdjiwmvtm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1619997720527" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="zipanda.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b449301f-c1e7-4637-ac40-98df6b7d5f8f" name="Default Changelist" comment="" />
+      <created>1619971670557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619971670557</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1627" y="678" width="696" height="804" key="find.popup" timestamp="1619971715124">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1627" y="678" width="696" height="804" key="find.popup/0.0.3840.2160@0.0.3840.2160" timestamp="1619971715124" />
+  </component>
+</project>
