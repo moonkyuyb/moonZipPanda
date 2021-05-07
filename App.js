@@ -125,6 +125,7 @@ const makeOptions05 = (props, title) => ({
 })
 
 const App = () => {
+	console.disableYellowBox = true;
 
 	useEffect(() => {
 		SplashScreen.hide();

@@ -6,7 +6,11 @@ platform :ios, '10.0'
 
 target 'zipanda' do
   
-  pod 'react-native-google-maps', :path => rn_maps_path
+
+  pod 'react-native-maps', path: rn_maps_path
+  pod 'react-native-google-maps', path: rn_maps_path  # Remove this line if you don't want to support GoogleMaps on iOS
+  #pod 'GoogleMaps'  # Remove this line if you don't want to support GoogleMaps on iOS
+  #pod 'Google-Maps-iOS-Utils' # Remove this line if you don't want to support GoogleMaps on iOS
 
   config = use_native_modules!
 
@@ -15,9 +19,6 @@ target 'zipanda' do
   #pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
   use_react_native!(:path => config["reactNativePath"])
 
-  pod 'Permission-LocationAccuracy', :path => "#{permissions_path}/LocationAccuracy"
-  pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways"
-  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse"
 
   target 'zipandaTests' do
     inherit! :complete

@@ -117,9 +117,9 @@ const SalesMapContainer = (props) => {
 	const MapIcon03_05Active28 = () => (<Image28 source={require('./../../../assets/img/drawable-xhdpi/SaleDetails/icon_map_high_school_w.png')}/>);
 	
 	const INITIAL_REGION = {
-		latitude: 37.565383,
-  		longitude: 126.976292,
-		latitudeDelta: 8.5,
+		latitude: 37.78825,
+  		longitude: -122.4324,
+		latitudeDelta: 0.0922,
 		longitudeDelta: 8.5
 	  };
 
@@ -217,9 +217,11 @@ const SalesMapContainer = (props) => {
 			    	provider={PROVIDER_GOOGLE}
 					region={INITIAL_REGION}
 					minZoomLevel={10}
-					style={{ width:'100%', height:'100%' }}
+					style={{flex:1, width:'100%', height:'100%' }}
     			>
+				
 					<Marker coordinate={{latitude:37.56437606841911,longitude:126.98122110332228}} />
+				
 				</MapView>
 					{/*
 				<MapPicker/>

@@ -98,22 +98,23 @@ const Sales = ({
 	optData,
 	tagData,    
 	avlTimeData, 
-	conviData,   
-	secureData,  
-	schoolData, 
+	isLike,
 	handleGetSaleDetail, 
 	handleGetSaleImages, 
 	handleGetOptions, 
 	handleGetTags, 
-	handleGetAvlTime, 
-	handleGetConvinience,
-	handleGetSecurity,
-	handleGetSchools}) => {
+	handleGetAvlTime,
+	handleSetLike,
+	handleGetLike,
+	handleDelLike,
+	}) => {
 		
+		console.log("isLike================================================================");
+		console.log(isLike)
+		
+		//console.log("saleData================================================================");
+		//console.log(saleData);
 		/*
-		console.log("saleData================================================================");
-		console.log(saleData);
-		
 		console.log("imgData================================================================");
 		console.log(imgData);
 		
@@ -134,10 +135,79 @@ const Sales = ({
 		
 		console.log("schoolData================================================================");
 		console.log(schoolData);
-		*/
 		
-	
-	
+		// member contact
+		console.log("membe contact ==============================================");
+		console.log(saleData.m_name);
+		console.log(saleData.status);
+		console.log(saleData.reg_date);
+		console.log(saleData.mod_date);
+		console.log(saleData.mc_weekday_to_minute);
+		console.log(saleData.mc_weekday_to_hour);
+		console.log(saleData.mc_weekday_to_ampm);
+		console.log(saleData.mc_weekday_from_minute);
+		console.log(saleData.mc_weekday_from_hour);
+		console.log(saleData.mc_weekday_from_ampm);
+		console.log(saleData.mc_pattern_wed);
+		console.log(saleData.mc_pattern_tue);
+		console.log(saleData.mc_pattern_thu);
+		console.log(saleData.mc_pattern_sun);
+		console.log(saleData.mc_pattern_sat);
+		console.log(saleData.mc_pattern_mon);
+		console.log(saleData.mc_pattern_holiday);
+		console.log(saleData.mc_pattern_fri);
+
+		console.log(saleData.mc_id);
+		
+		console.log(saleData.mc_holiday_to_minute);
+		console.log(saleData.mc_holiday_to_hour);
+		console.log(saleData.mc_holiday_to_ampm);
+		console.log(saleData.mc_holiday_from_minute);
+		console.log(saleData.mc_holiday_from_hour);
+		console.log(saleData.mc_holiday_from_ampm);
+		console.log(saleData.m_id);
+
+		// sale appointement 
+		console.log("appointement ==============================================");
+		console.log(saleData.sa_id);
+		console.log(saleData.s_id);
+		console.log(saleData.sa_pattern_sun);
+		console.log(saleData.sa_pattern_mon);
+		console.log(saleData.sa_pattern_tue);
+		console.log(saleData.sa_pattern_wed);
+		console.log(saleData.sa_pattern_thu);
+		console.log(saleData.sa_pattern_fri);
+		console.log(saleData.sa_pattern_sat);
+		console.log(saleData.sa_from_ampm);
+		console.log(saleData.sa_from_hour);
+		console.log(saleData.sa_from_minute);
+		console.log(saleData.sa_to_ampm);
+		console.log(saleData.sa_to_hour);
+		console.log(saleData.sa_to_minute);
+		console.log(saleData.reg_date);
+		console.log(saleData.mod_date);
+		console.log(saleData.status);
+
+		console.log("appointement detail ==============================================");
+		console.log(saleData.sa_id);
+		console.log(saleData.s_id);
+		console.log(saleData.sa_pattern_sun);
+		console.log(saleData.sa_pattern_mon);
+		console.log(saleData.sa_pattern_tue);
+		console.log(saleData.sa_pattern_wed);
+		console.log(saleData.sa_pattern_thu);
+		console.log(saleData.sa_pattern_fri);
+		console.log(saleData.sa_pattern_sat);
+		console.log(saleData.sa_from_ampm);
+		console.log(saleData.sa_from_hour);
+		console.log(saleData.sa_from_minute);
+		console.log(saleData.sa_to_ampm);
+		console.log(saleData.sa_to_hour);
+		console.log(saleData.sa_to_minute);
+		console.log(saleData.reg_date);
+		console.log(saleData.mod_date);
+		console.log(saleData.status);
+		*/
 	
 	//GET ROUTE & NAVIGATION
 	const route = useRoute(), navigation = useNavigation()
@@ -182,9 +252,10 @@ const Sales = ({
 			handleGetOptions(256);
 			handleGetTags(256);
 			handleGetAvlTime(256);
-			handleGetConvinience(256);
-			handleGetSecurity(256);
-			handleGetSchools(256);
+			handleGetLike(256,2)
+			//handleGetConvinience(256);
+			//handleGetSecurity(256);
+			//handleGetSchools(256);
 		}
 		handleEffect()
 	},[])
@@ -242,8 +313,8 @@ const Sales = ({
 								<PriceText>{saleData.s_deposit == 0  || saleData.s_deposit == null ? "": saleData.deposit}{saleData.s_trading_price == 0 || saleData.s_trading_price == null ? "":saleData.trading_price}만원{ (saleData.s_monthly_rent==0 || saleData.s_monthly_rent==null  ? "":"/"+saleData.monthly_rent+"만원")}</PriceText>
 							</View>
 						</FlexRowBox>
-						<ZzimBtn onPress={() => { setZzimBtn (!zzimBtn)}}>
-							{zzimBtn ? <ZzimImgActive /> : <ZzimImg />} 
+						<ZzimBtn onPress={() => { isLike ? handleDelLike(256,2):handleSetLike(256,2) }}>
+							{isLike ? <ZzimImgActive /> : <ZzimImg />} 
 						</ZzimBtn>
 					</SaleInfoBox01>
 					<SaleInfoBox02>
@@ -495,17 +566,17 @@ const Sales = ({
 					<LessorInfoBox first>
 						<Image32 source={require('./../../../assets/img/drawable-xhdpi/icon_mobile_call.png')}/>
 						<LessorTextBox>
-							<TextBold14>임대인(김*다) 연락가능 시간</TextBold14>
-							<TextLight14>주말, 공휴일 09:00~20:00</TextLight14>
-							<TextLight14>월~금 18:00~20:00</TextLight14>
+							<TextBold14>임대인({saleData.m_name}) 연락가능 시간</TextBold14>
+							<TextLight14>주말, 공휴일 {saleData.mc_holiday_from_hour}:{saleData.mc_holiday_from_minute}~{saleData.mc_holiday_to_hour}:{saleData.mc_holiday_to_minute}</TextLight14>
+							<TextLight14>월~금 {saleData.mc_weekday_from_hour}:{saleData.mc_weekday_from_minute}~{saleData.mc_weekday_to_hour}:{saleData.mc_weekday_to_minute}</TextLight14>
 						</LessorTextBox>
 					</LessorInfoBox>
 					<LessorInfoBox>
 						<Image32 source={require('./../../../assets/img/drawable-xhdpi/icon_mobile_visit.png')}/>
 						<LessorTextBox>
-							<TextBold14>임대인(김*다) 방문가능 시간</TextBold14>
-							<TextLight14>주말, 공휴일 09:00~20:00</TextLight14>
-							<TextLight14>월~금 18:00~20:00</TextLight14>
+							<TextBold14>임대인({saleData.m_name}) 방문가능 시간</TextBold14>
+							<TextLight14>주말, 공휴일 {saleData.sa_from_hour}:{saleData.sa_from_minute}~{saleData.sa_to_hour}:{saleData.sa_to_minute}</TextLight14>
+							<TextLight14>월~금 {saleData.sad_from_hour}:{saleData.sad_from_minute}~{saleData.sad_to_hour}:{saleData.sad_to_minute}</TextLight14>
 						</LessorTextBox>
 					</LessorInfoBox>
 				</YellowLessorInfo>

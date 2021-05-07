@@ -11,8 +11,10 @@ export const GET_SALE_AVLTIME  = "GET_SALES_AVLTIME";
 export const GET_SALE_CONVI    = "GET_SALES_CONVI";
 export const GET_SALE_SECURE    = "GET_SALES_SECURE";
 export const GET_SALE_SCHOOL   = "GET_SALES_SCHOOL";
+export const GET_SALE_LIKE      = "GET_SALE_LIKE";
+export const SET_SALE_LIKE      = "SET_SALE_LIKE";
 
-export const ALL_SALE_DETAIL_ACTIONS = [GET_SALE_DETAIL, GET_SALE_IMAGES, GET_SALE_OPTS, GET_SALE_TAGS, GET_SALE_AVLTIME, GET_SALE_CONVI, GET_SALE_SECURE, GET_SALE_SCHOOL];
+export const ALL_SALE_DETAIL_ACTIONS = [GET_SALE_DETAIL, GET_SALE_IMAGES, GET_SALE_OPTS, GET_SALE_TAGS, GET_SALE_AVLTIME, GET_SALE_CONVI, GET_SALE_SECURE, GET_SALE_SCHOOL, GET_SALE_LIKE, SET_SALE_LIKE];
 
 
 
@@ -40,7 +42,8 @@ const fetchSaleDetail = async (sID) =>{
 }
 
 const fetchData = async (div,sID) =>{
-
+    console.log("fetcha data=================================================");
+    console.log(API_URL_KYU+div+sID);
     const promisedFetch = new Promise((resolve, reject)=>{
 		fetch(API_URL_KYU+div+sID, {
 			method: 'GET',
@@ -59,6 +62,52 @@ const fetchData = async (div,sID) =>{
 	return await fetchWithTimeout(promisedFetch, 5000)
 
 }
+
+const postData = async (div,data) =>{
+
+    const promisedFetch = new Promise((resolve, reject)=>{
+		fetch(API_URL_KYU+div, {
+			method: 'POST',
+			headers: {
+				Accept: 'application/json',
+				'Content-Type': 'application/json'
+			},
+            body:JSON.stringify(data)
+		})
+		.then(response=>{
+			response.json().then((result)=>{
+	            if(response.ok) resolve(result)
+				else reject(new Error(result.msg))
+			})
+		})
+	})
+	return await fetchWithTimeout(promisedFetch, 5000)
+
+} 
+
+
+const deleteData = async (div,data) =>{
+
+    const promisedFetch = new Promise((resolve, reject)=>{
+		fetch(API_URL_KYU+div, {
+			method: 'DELETE',
+			headers: {
+				Accept: 'application/json',
+				'Content-Type': 'application/json'
+			},
+            body:JSON.stringify(data)
+		})
+		.then(response=>{
+			response.json().then((result)=>{
+	            if(response.ok) resolve(result)
+				else reject(new Error(result.msg))
+			})
+		})
+	})
+	return await fetchWithTimeout(promisedFetch, 5000)
+
+} 
+
 
 // actions
 // ㅁㅐ물 상세
@@ -154,6 +203,70 @@ export const getAvailableTime = (sID) =>{
         })
     })
 }
+
+// 좋아요 받기 
+export const getLike = (sID, mID) =>{
+    return (dispatch=>{
+        fetchData("/sales/like/"+sID+"/",mID)
+        .then(result=>{
+            dispatch({
+                type:GET_SALE_LIKE,
+                payload:result.data[0].cnt
+            })      
+        })
+        .catch(err=>{
+            dispatch({
+                type:SHOW_ALERT_MESSAGE,
+                payload:err.message.toString()
+            })
+        })
+    })
+}
+
+// 좋아요 클릭 
+export const setLike = (sID, mID) =>{
+    return (dispatch=>{
+        postData("/sales/like", {s_id:sID, m_id:mID})
+        .then(result=>{
+            console.log("set like data==-=-=-==-=-=-==-=-=-==-=-=-==-=-=-==-=-=-==-=-=-=");
+            console.log(result.data);            
+            dispatch({
+                type:SET_SALE_LIKE,
+                payload:result.data.affectedRows
+            })      
+        })
+        .catch(err=>{
+            dispatch({
+                type:SHOW_ALERT_MESSAGE,
+                payload:err.message.toString()
+            })
+        })
+    })
+}
+
+// 좋아요 취소 
+export const delLike = (sID, mID) =>{
+    console.log("setlike==============================");
+    console.log(`${sID},${mID}`);
+    return (dispatch=>{
+        deleteData("/sales/like", {s_id:sID, m_id:mID})
+        .then(result=>{
+            dispatch({
+                type:SET_SALE_LIKE,
+                payload:result.data
+            })      
+        })
+        .catch(err=>{
+            dispatch({
+                type:SHOW_ALERT_MESSAGE,
+                payload:err.message.toString()
+            })
+        })
+    })
+}
+
+
+/*
 // 편의 시설
 export const getConvinience  = (sID) =>{
     return (dispatch=>{
@@ -208,7 +321,7 @@ export const getSchools  = (sID) =>{
         })
     })
 }
-
+*/
 
 
 
@@ -221,7 +334,8 @@ const initialState  = {
     avlTimeData :[],
     conviData   :[],
     secureData  :[],
-    schoolData  :[]
+    schoolData  :[],
+    isLike      :false,
 }
 
 const saleDetailReducer = (state=initialState, action) =>{
@@ -279,6 +393,19 @@ const saleDetailReducer = (state=initialState, action) =>{
             console.log("sale schoole==============================");
             return Object.assign({}, state, {
                 schoolData: action.payload
+                });
+        break;
+
+        case GET_SALE_LIKE:
+            
+            return Object.assign({}, state, {
+                isLike: (action.payload > 0)
+                });    
+        break;
+
+        case SET_SALE_LIKE:
+            return Object.assign({}, state, {
+                isLike: (action.payload > 0)
                 });
         break;
 
