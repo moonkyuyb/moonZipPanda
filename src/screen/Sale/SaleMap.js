@@ -2,7 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Image } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import styled from 'styled-components/native';
-import MapView, {Marker, PROVIDER_GOOGLE } from 'react-native-maps';
+//import MapView, {Marker, PROVIDER_GOOGLE, PROVIDER_DEFAULT } from 'react-native-maps';
+//import MapView, {Marker, PROVIDER_GOOGLE, PROVIDER_DEFAULT } from 'react-native-google-places';
+//import RNGooglePlaces from 'react-native-google-places';
+import { WebView } from 'react-native-webview';
 
 
 import { 
@@ -115,14 +118,15 @@ const SalesMapContainer = (props) => {
 	const MapIcon03_03Active28 = () => (<Image28 source={require('./../../../assets/img/drawable-xhdpi/SaleDetails/icon_map_elementary_school_w.png')} />);
 	const MapIcon03_04Active28 = () => (<Image28 source={require('./../../../assets/img/drawable-xhdpi/SaleDetails/icon_map_middle_school_w.png')} />);
 	const MapIcon03_05Active28 = () => (<Image28 source={require('./../../../assets/img/drawable-xhdpi/SaleDetails/icon_map_high_school_w.png')}/>);
-	
+
 	const INITIAL_REGION = {
-		latitude: 37.78825,
-  		longitude: -122.4324,
-		latitudeDelta: 0.0922,
+		latitude: 37.56437606841911,
+  		longitude: 126.98122110332228,
+		latitudeDelta: 1,
 		longitudeDelta: 8.5
 	  };
-
+	  
+	  
 	return(
 		<MapContBorder>
 			
@@ -210,19 +214,31 @@ const SalesMapContainer = (props) => {
 				</MapContBox> 
 				
 			</MapHeader>
-			 <Map style={{borderWidth:1}}>
-			
+			<Map style={{borderWidth:1}}>
+				
+					<WebView
+						style={{flex:1, width:'100%', height:'100%' }}
+						source={{uri:"http://localhost:8000/map/map.html?type=restaurant"}}
+						javaScriptEnabled={true}
+
+						/>
+				
+				{/*}
 				<MapView
-					mapType={"standard"}
 			    	provider={PROVIDER_GOOGLE}
 					region={INITIAL_REGION}
-					minZoomLevel={10}
+					zoomEnabled = {false}
+					minZoomLevel={14}
+					rotateEnabled={false}
+					scrollEnabled={false}
+					pitchEnabled={false}
+
 					style={{flex:1, width:'100%', height:'100%' }}
     			>
-				
-					<Marker coordinate={{latitude:37.56437606841911,longitude:126.98122110332228}} />
-				
+				    <Marker coordinate={INITIAL_REGION} image={require("./../../../assets/img/drawable-xhdpi/icon_map_point.png")} />
+
 				</MapView>
+			{*/}
 					{/*
 				<MapPicker/>
 				<MapIcon01_01Active28/>

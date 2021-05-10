@@ -86,6 +86,7 @@ import {
 import { elastic } from 'react-native/Libraries/Animated/src/Easing';
 
 
+
 const OptionItem = (props) => (
 	<OptionListActive>
 			<Text>{props.title?props.title:''}</Text> 
@@ -247,15 +248,17 @@ const Sales = ({
 	useEffect(()=>{
 		const handleEffect = async (props) => {
 			//...
+			/*
 			handleGetSaleDetail(256);
 			handleGetSaleImages(256);
 			handleGetOptions(256);
 			handleGetTags(256);
 			handleGetAvlTime(256);
 			handleGetLike(256,2)
-			//handleGetConvinience(256);
-			//handleGetSecurity(256);
-			//handleGetSchools(256);
+			handleGetConvinience(256);
+			handleGetSecurity(256);
+			handleGetSchools(256);
+			*/
 		}
 		handleEffect()
 	},[])
@@ -293,6 +296,9 @@ const Sales = ({
 	const MapIcon03_03Active = () => (<Image48 source={require('./../../../assets/img/drawable-xhdpi/SaleDetails/icon_map_elementary_school_w.png')} />);
 	const MapIcon03_04Active = () => (<Image48 source={require('./../../../assets/img/drawable-xhdpi/SaleDetails/icon_map_middle_school_w.png')} />);
 	const MapIcon03_05Active = () => (<Image48 source={require('./../../../assets/img/drawable-xhdpi/SaleDetails/icon_map_high_school_w.png')}/>);
+
+
+
 
 	return(
 		<Container>
@@ -351,8 +357,6 @@ const Sales = ({
 								optData.length > 0 &&
 								
 								optData.map((el) => {
-									console.log("opt section-=-=-==--=-=-==--=-=-==--=-=-==--=-=-==--=-=-==-");
-									console.log(el.string+","+el.icon_url);
 									return (<SaleInfoList>
 										<SaleIcon><Image45 source={{uri:ADMIN_URL+el.icon_url}} /></SaleIcon>
 										<TextLight12>{el.string}</TextLight12>
@@ -582,7 +586,7 @@ const Sales = ({
 				</YellowLessorInfo>
 				
 				<SalesMapContainer address1={saleData.address1} address2={saleData.address2} />
-			
+					
 			</ScrollView>
 		
 			<PandaTalkWrap onPress={() => navigation.navigate('chat')}>

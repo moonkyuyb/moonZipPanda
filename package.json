@@ -42,6 +42,7 @@
     "react-native-splash-screen": "^3.2.0",
     "react-native-swiper": "^1.6.0",
     "react-native-ui-xg": "0.0.6",
+    "react-native-webview": "^11.4.4",
     "react-redux": "^7.2.4",
     "redux": "^4.1.0",
     "redux-ignore": "^1.2.5",

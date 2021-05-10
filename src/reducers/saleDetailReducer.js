@@ -106,7 +106,7 @@ const deleteData = async (div,data) =>{
 	})
 	return await fetchWithTimeout(promisedFetch, 5000)
 
-} 
+}
 
 
 // actions

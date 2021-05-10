@@ -4,6 +4,8 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 #import <GoogleMaps/GoogleMaps.h>
+@import GooglePlaces;
+@import GoogleMaps;
 
 #ifdef FB_SONARKIT_ENABLED
 #import <FlipperKit/FlipperClient.h>
@@ -31,8 +33,11 @@ static void InitializeFlipper(UIApplication *application) {
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 
-  [GMSServices provideAPIKey:@"AIzaSyDmpJT53ic2zUSBJ2si8NYzi6Hkacv3ASM"]; // add this line using the api key obtained from Google Console
-
+  //[GMSServices provideAPIKey:@"AIzaSyDmpJT53ic2zUSBJ2si8NYzi6Hkacv3ASM"]; // add this line using the api key obtained from Google Console
+  [GMSPlacesClient provideAPIKey:@"AIzaSyB6n18ZryPT3tqHS6zX5oWaHH9W87S77B8"];
+  [GMSServices provideAPIKey:@"AIzaSyB6n18ZryPT3tqHS6zX5oWaHH9W87S77B8"]; // add this line using the api key obtained from Google Console
+  
+  //AIzaSyD2ivyMKSsVN__FmK1f3LoYsu5ZeHdju90
 #ifdef FB_SONARKIT_ENABLED
   InitializeFlipper(application);
 #endif
